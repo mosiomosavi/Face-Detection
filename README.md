@@ -1,27 +1,19 @@
+# Face Detection GUI
 
-This script creates a GUI application that starts a video stream and detects faces in real-time using OpenCV’s Haar cascade. Here’s how it works:
+This project is a simple GUI-based application for real-time face detection using Python. It combines OpenCV for face detection and Tkinter for the graphical interface.
 
-Key Features:
-Face Detection: Uses cv2.CascadeClassifier to detect faces in the video frame.
-Tkinter GUI: Provides a graphical interface with buttons to start the video and exit the application.
-Threading: Ensures the GUI remains responsive while the video stream runs in the background.
-Steps:
-Install Required Libraries:
+## Features
 
-Install OpenCV: pip install opencv-python
-Tkinter is included in Python by default.
-Run the Script:
+- **Real-Time Face Detection**: Detects faces from the webcam feed using Haar cascades.
+- **Bounding Boxes**: Displays bounding boxes and labels around detected faces.
+- **Interactive GUI**: Start and stop the video feed directly from the GUI.
+- **Threading**: Ensures a smooth and responsive user experience.
 
-Save the script as face_detection_gui.py.
-Run the script using Python: python face_detection_gui.py.
-Usage:
+## Prerequisites
 
-Click Start Video to open the video stream.
-Faces detected will have bounding boxes and a face count displayed.
-Press Q to stop the video feed.
-Click Exit to close the application.
-Notes:
-Ensure you have a working webcam.
-The script uses the Haar cascade XML file bundled with OpenCV.
-You can customize the detection sensitivity by adjusting the scaleFactor and minNeighbors parameters in detectMultiScale.
-Let me know if you’d like additional functionality or modifications!
+Before running the application, ensure you have the following:
+
+- **Python 3.6 or higher**
+- **Webcam**: The application uses your webcam for the video feed.
+
+
