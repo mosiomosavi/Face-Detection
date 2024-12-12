@@ -1,10 +1,9 @@
 # Face-Detection
-Real-Time Face Detection with OpenCV
-Prerequisites:
-Please make sure the following libraries are installed before running the project:
-- numpy
-- pandas
-- matplotlib
+Dependencies:
+- OpenCV (cv2): Install it using `pip install opencv-python`.
+- Tkinter (tk): This is usually included with Python, no additional installation is required.
+- Threading: This is part of Python's standard library, no additional installation is required.
+
 ```
 import cv2
 import tkinter as tk
